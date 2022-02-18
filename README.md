@@ -1,8 +1,13 @@
 # buildspace Wave Portal 👋 
 
 ## To-Do
-- [ ] Fix `useEffect`
-- [ ] 
+- [x] Fix `useEffect` for new wave events
+- [ ] Clean up
+- [ ] Deploy
+- [ ] write README.md
+
+## Live App
+[https://gifted-aryabhata-929956.netlify.app/](https://gifted-aryabhata-929956.netlify.app/)
 
 ### **Welcome!**
 To get started with this course, clone this repo and follow these commands:

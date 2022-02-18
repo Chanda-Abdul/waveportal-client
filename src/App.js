@@ -194,17 +194,30 @@ export default function App() {
               right? Connect your Ethereum wallet and{" "}
               <span className="doTheWave">wave at me</span>!!!
             </div>
+            {/*
+             * If there is no currentAccount render this button
+             */}
+            {!currentAccount && (
+              <button className="waveButton" onClick={connectWallet}>
+                Connect Wallet
+              </button>
+            )}
 
-            <Input
-              focus
-              value={newMessage}
-              onChange={handleMessage}
-              placeholder="Enter your message here and send me a wave..."
-            />
+            {currentAccount && (
+              <>
+                <Input
+                  focus
+                  value={newMessage}
+                  onChange={handleMessage}
+                  placeholder="Enter your message here and send me a wave..."
+                />
 
-            <button className="waveButton" onClick={wave}>
-              Wave at Me
-            </button>
+                <button className="waveButton" onClick={wave}>
+                  Wave at Me
+                </button>
+              </>
+            )}
+
             {waveCount > 0 && (
               <div className="waveDisplay">
                 Retrieved total wave count of{" "}
@@ -254,15 +267,6 @@ export default function App() {
         )}
 
         {mining && <Loader />}
-
-        {/*
-         * If there is no currentAccount render this button
-         */}
-        {!currentAccount && (
-          <button className="waveButton" onClick={connectWallet}>
-            Connect Wallet
-          </button>
-        )}
       </div>
     </div>
   );
