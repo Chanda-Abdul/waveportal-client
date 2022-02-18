@@ -1,8 +1,22 @@
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: #252526;
+  padding: 5vh;
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 64px;
+  width: 75vw;
+  height: auto;
+  /* margin-top: auto; */
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .dataContainer {
@@ -10,25 +24,68 @@
   flex-direction: column;
   justify-content: center;
   max-width: 600px;
+  padding: 3rem;
 }
 
 .header {
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  padding: 2rem;
 }
 
 .bio {
   text-align: center;
   color: gray;
   margin-top: 16px;
+  padding: 3rem;
+}
+
+span {
+  text-shadow: 1px 1px 1px grey;
+}
+
+.name {
+  font-weight: 800;
+  color: rgba(238, 130, 238, 0.749);
+}
+
+.aboutMe {
+  font-weight: 800;
+  color: rgba(0, 255, 255, 0.592);
+}
+
+.doTheWave {
+  font-weight: 900;
+  color: blue;
 }
 
 .waveButton {
   cursor: pointer;
-  margin-top: 16px;
+  margin-top: 32px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+  align-self: center;
+  width: 25vw;
+  color: #fff;
+  text-shadow: 1px 1px 1px grey;
+  font-weight: 600;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 255, 255, 0.592),
+    rgba(238, 130, 238, 0.749),
+    blue
+  );
+}
+
+.waveDisplay {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveNumber {
+  font-weight: 800;
+  color: blue;
 }
