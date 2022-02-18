@@ -11,13 +11,15 @@ export default function App() {
   //duplicated?
   const [waveCount, setWaveCount] = useState(0);
   const [allWaves, setAllWaves] = useState([]);
-  const [newMessage, setNewMessage] = useState("Enter your message here and send me a wave...");
+  const [newMessage, setNewMessage] = useState("");
 
-  const contractAddress = "0xf64Aa6e9D7f0aE28920eEb594d2C824fF9210956";
+  const contractAddress = "0xAA61FaC43f75Af5D8D174756ab312dBA74d8963F";
 
-const handleMessage = (event) => {
-  setNewMessage(event.target.value)
-}
+  const contractABI = abi.abi;
+
+  const handleMessage = (event) => {
+    setNewMessage(event.target.value);
+  };
 
   const getAllWaves = async () => {
     try {
@@ -50,7 +52,41 @@ const handleMessage = (event) => {
     }
   };
 
-  const contractABI = abi.abi;
+  /**
+   * Listen in for emitter events!
+   */
+  useEffect(() => {
+    let wavePortalContract;
+
+    const onNewWave = (from, timestamp, message) => {
+      console.log("NewWave", from, timestamp, message);
+      setAllWaves((prevState) => [
+        ...prevState,
+        {
+          address: from,
+          timestamp: new Date(timestamp * 1000),
+          message: message,
+        },
+      ]);
+    };
+    if (window.ethereum) {
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+
+      wavePortalContract = new ethers.Contract(
+        contractAddress,
+        contractABI,
+        signer
+      );
+      wavePortalContract.on("NewWave", onNewWave);
+    }
+
+    return () => {
+      if (wavePortalContract) {
+        wavePortalContract.off("NewWave", onNewWave);
+      }
+    };
+  }, []);
 
   const checkIfWalletIsConnected = async () => {
     try {
@@ -120,7 +156,9 @@ const handleMessage = (event) => {
         /*
          * Execute the actual wave from your smart contract
          */
-        const waveTxn = await wavePortalContract.wave(newMessage);
+        const waveTxn = await wavePortalContract.wave(newMessage, {
+          gasLimit: 300000,
+        });
         console.log("Mining...", waveTxn.hash);
         setMining(true);
 
@@ -142,11 +180,6 @@ const handleMessage = (event) => {
     checkIfWalletIsConnected();
   }, []);
 
-  //fix this to rerender with each new wave
-  // useEffect(() => {
-  //   getAllWaves();
-  // }, []);
-
   return (
     <div className="contentContainer">
       <div className="mainContainer">
@@ -162,12 +195,12 @@ const handleMessage = (event) => {
               <span className="doTheWave">wave at me</span>!!!
             </div>
 
-            <Input 
-            focus 
-            value={newMessage} 
-            onChange={handleMessage} 
-            placeholder="Enter your message here and send me a wave..."/>
-           
+            <Input
+              focus
+              value={newMessage}
+              onChange={handleMessage}
+              placeholder="Enter your message here and send me a wave..."
+            />
 
             <button className="waveButton" onClick={wave}>
               Wave at Me
@@ -180,7 +213,6 @@ const handleMessage = (event) => {
             )}
             <div>
               {allWaves.map((wave, index) => {
-               
                 return (
                   <>
                     <Table
