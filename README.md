@@ -17,11 +17,11 @@ Web3 App with Solidity + Ethereum Smart Contracts
 
 ## Overview
 
-This is a solution to the [buildspace](https://buildspace.so/) challenge to build a <b>Web3 App with Solidity + Ethereum Smart Contracts</b>. [buildspace](https://buildspace.so/) is a platform to learn and build web3 projects alongside other devs.
+This is a solution to the [buildspace](https://buildspace.so/) challenge to build a <b>Web3 App with Solidity + Ethereum Smart Contracts</b>. [buildspace](https://buildspace.so/) is a platform to learn and build <b>Web3</b> projects alongside other devs.
 
-This repo contains the front-end of my Web3 app.  You can view the repo for the [Solidity + Ethereum Smart Contracts here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
+This repo contains the front-end <b>React<b> code for my <b>Web3</b> app.  You can view the repo for the Solidity + Ethereum Smart Contracts [here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
 
-I built this project to learn some Solidity, write + deploy a smart contract to the blockchain, and build a Web3 client app that can interact with your a smart contract, and to basically get comfortable building an entire Web3 App. 
+I built this project so that I could learn some <b>Solidity</b>, write + deploy a <b>smart contract</b> to the <b>blockchain</b>, and build a <b>Web3 client</b> app that can <b>interact</b> with your a <b>smart contract</b>, and to basically get comfortable building an entire Web3 App. 
 
 ## The challenge
 
@@ -37,7 +37,7 @@ I built this project to learn some Solidity, write + deploy a smart contract to 
 ### Smart Contract should be able to:
 
 - [x] Deploy your WavePortal smart contract to a local Ethereum network
-- [x] Build web3 app that connects to our wallet and talks to our WaveContract
+- [x] Build Web3 app that connects to our wallet and talks to our WaveContract
 - [x] Update WavePortal to randomly send lucky users waving at you some Ethereum
 - [x] Update UI + deploy to an Ethereum testnet so anyone on the internet can wave at you using their wallet
 
@@ -78,9 +78,9 @@ I built this project to learn some Solidity, write + deploy a smart contract to 
 
 ### What I learned
 
-This was a useful and rewarding project for me.  I became interested in web3 and solidity and I really wanted to build a complete project because I knew that would be the most effect way to learn.  I ran into ALOT of roadblocks in previous projects because web3/solditity is a fairly new technology that is being continuously updated, and it's very hard to find documentation and resources that will work with different versions of solidity. 
+This was a useful and rewarding project for me.  I became interested in Web3 and solidity and I really wanted to build a complete project because I knew that would be the most effect way to learn.  I ran into ALOT of roadblocks in previous projects because Web3/solditity is a fairly new technology that is being continuously updated, and it's very hard to find documentation and resources that will work with different versions of solidity. 
 
-This was my first successful completed web3 project. I really enjoyed that buildspace showed the step by step process of building a complete web3 project and providing a community that you can utilized to get help when you run into any blockers. 
+This was my first successful completed Web3 project. I really enjoyed that buildspace showed the step by step process of building a complete Web3 project and providing a community that you can utilized to get help when you run into any blockers. 
 
 One of the main tools that helped me complete this project was [Hardhat](https://hardhat.org/), which allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. 
 
@@ -130,7 +130,7 @@ There are a few things that I would like to revist when I have the time.  The pr
 
 ## Acknowledgments
 
-[buildspace](https://buildspace.so/) is a great resource if you want to get started with web3. I would highly recommend.
+[buildspace](https://buildspace.so/) is a great resource if you want to get started with Web3. I would highly recommend.
 
 
 
