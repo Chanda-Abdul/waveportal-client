@@ -56,7 +56,7 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
 ## Links
 
 - Link to deployed Site: [Wave Portal Web3 App](https://gifted-aryabhata-929956.netlify.app/)
-- Link to Solidity Smart Contract: [Wave Portal Smart Contact Code](https://github.com/Chanda-Abdul/waveportal-smart-contract)
+- Link to Solidity Smart Contract: [Wave Portal Smart Contract Code](https://github.com/Chanda-Abdul/waveportal-smart-contract)
 
 ## My process
 
