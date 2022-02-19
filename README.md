@@ -19,7 +19,7 @@ Web3 App with Solidity + Ethereum Smart Contracts
 
 This is a solution to the [buildspace](https://buildspace.so/) challenge to build a <b>Web3 App with Solidity + Ethereum Smart Contracts</b>. [buildspace](https://buildspace.so/) is a platform to learn and build <b>Web3</b> projects alongside other devs.
 
-This repo contains the front-end <b>React<b> code for my <b>Web3</b> app.  You can view the repo for the Solidity + Ethereum Smart Contracts [here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
+This repo contains the front-end <b>React</b> code for my <b>Web3</b> app.  You can view the repo for the Solidity + Ethereum Smart Contracts [here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
 
 I built this project so that I could learn some <b>Solidity</b>, write + deploy a <b>smart contract</b> to the <b>blockchain</b>, and build a <b>Web3 client</b> app that can <b>interact</b> with your a <b>smart contract</b>, and to basically get comfortable building an entire Web3 App. 
 
