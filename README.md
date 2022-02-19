@@ -131,3 +131,7 @@ There are a few things that I would like to revist when I have the time.  The pr
 ## Acknowledgments
 
 [buildspace](https://buildspace.so/) is a great resource if you want to get started with Web3. Highly recommended 💯.
+
+Also,  they gave me this really cool NFT for completing the project
+![]( https://tokens.buildspace.so/assets/CH6c84e3ea-6b71-4274-a642-e3aef6d7eb84-264/render.png
+)
