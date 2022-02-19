@@ -1,5 +1,5 @@
 # [buildspace](https://buildspace.so/) Wave Portal 👋 
-Web3 App with Solidity + Ethereum Smart Contracts
+### Web3 App with Solidity + Ethereum Smart Contracts
 
 ## Table of contents
 
@@ -55,7 +55,7 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
 
 ## Links
 
-- Link to deployed Site: [Wave Portal Web3 dApp](https://gifted-aryabhata-929956.netlify.app/)
+- Link to deployed Site: [Wave Portal Web3 App](https://gifted-aryabhata-929956.netlify.app/)
 - Link to Solidity Smart Contract: [Wave Portal Smart Contact Code](https://github.com/Chanda-Abdul/waveportal-smart-contract)
 
 ## My process
@@ -76,7 +76,7 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
         - [Etherscan](https://rinkeby.etherscan.io/)
     - [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 
-## What I learned
+### What I learned
 
 This was a useful and rewarding project for me.  I became interested in Web3 and Solidity, and I knew that would be the most effect way to learn was by building a complete project.  I ran into ALOT of roadblocks in previously because Web3 and Solidity are fairly new technologies that are updated all the time, sometimes with breaking changes 😩. Because of this it has been extremely hard for me to find documentation and resources to use while building Solidity projects. 
 
@@ -120,8 +120,8 @@ There are a few things that I would like to revist when I have the time.  The pr
 
 ## Useful resources
 
--  [Hardhat](https://hardhat.org/), an Ethereum development environment. Hardhat allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. This really helped me understand how to build a smart contract from a JavaScript point of view.
 - [Semantic UI React](https://react.semantic-ui.com/).  I used <b>Semantic UI Components</b> for the `<Input/>` box and the `<Table/>` that displays the waver's information.  I didn't want to spend a ton of time on these elements because the focus of this project was to build a fully functional smart contract. 
+-  [Hardhat](https://hardhat.org/), an Ethereum development environment. Hardhat allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. This really helped me understand how to build a smart contract from a JavaScript point of view.
 
 ## Author
 
