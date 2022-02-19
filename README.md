@@ -76,13 +76,13 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
         - [Etherscan](https://rinkeby.etherscan.io/)
     - [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 
-### What I learned
+## What I learned
 
-This was a useful and rewarding project for me.  I became interested in Web3 and solidity and I really wanted to build a complete project because I knew that would be the most effect way to learn.  I ran into ALOT of roadblocks in previous projects because Web3/solditity is a fairly new technology that is being continuously updated, and it's very hard to find documentation and resources that will work with different versions of solidity. 
+This was a useful and rewarding project for me.  I became interested in Web3 and Solidity, and I knew that would be the most effect way to learn was by building a complete project.  I ran into ALOT of roadblocks in previously because Web3 and Solidity are fairly new technologies that are updated all the time, sometimes with breaking changes 😩. Because of this it has been extremely hard for me to find documentation and resources to use while building Solidity projects. 
 
-This was my first successful completed Web3 project. I really enjoyed that buildspace showed the step by step process of building a complete Web3 project and providing a community that you can utilized to get help when you run into any blockers. 
+This was my first successfully completed Web3 project. I really enjoyed that buildspace showed the step by step process of how to build a Web3 project and for providing a community that you can utilized to get help when you run into any blockers. 
 
-One of the main tools that helped me complete this project was [Hardhat](https://hardhat.org/), which allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. 
+One of the main tools that helped me complete this project was [Hardhat](https://hardhat.org/)🙌🏽, which allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. 
 
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -104,12 +104,12 @@ const proudOfThisFunc = () => {
 
 
 
-### Continued development
+## Continued development
 
 There are a few things that I would like to revist when I have the time.  The prize functionality is build into the smart contract, but I would like to add some feedback to the UI so that the user willl know that they entered the contest and alert them if they win.  I would also like to add UI feedback for any issues we may encouter, such as running out of gas, etc.
 
 
-#### To-Do's
+### To-Do's
 
 - [x] Fix `useEffect` for new wave events
 - [x] Add alerts for out of gas, etc.
@@ -118,10 +118,10 @@ There are a few things that I would like to revist when I have the time.  The pr
 - [x] write README.md
 - [ ] add UI feedback and information for prize
 
-### Useful resources
+## Useful resources
 
--  [Hardhat](https://hardhat.org/), which allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. This really helped me understand how to build a smart contract in JavaScript kind of way.
-- [Semantic UI React](https://react.semantic-ui.com/).  I used <b>Semantic UI Components</b> for the input box and the table that displays the waver's information.  I didn't want to spend a ton of time on these elements because the focus of this project was to build a fully functional smart contract. 
+-  [Hardhat](https://hardhat.org/), an Ethereum development environment. Hardhat allows you to deploy your contracts, run tests and debug Solidity code without dealing with live environments. This really helped me understand how to build a smart contract from a JavaScript point of view.
+- [Semantic UI React](https://react.semantic-ui.com/).  I used <b>Semantic UI Components</b> for the `<Input/>` box and the `<Table/>` that displays the waver's information.  I didn't want to spend a ton of time on these elements because the focus of this project was to build a fully functional smart contract. 
 
 ## Author
 
@@ -130,11 +130,4 @@ There are a few things that I would like to revist when I have the time.  The pr
 
 ## Acknowledgments
 
-[buildspace](https://buildspace.so/) is a great resource if you want to get started with Web3. I would highly recommend.
-
-
-
-
-
-
-
+[buildspace](https://buildspace.so/) is a great resource if you want to get started with Web3. Highly recommended 💯.
