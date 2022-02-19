@@ -1,22 +1,16 @@
 # buildspace Wave Portal 👋 
+Web3 App with Solidity + Ethereum Smart Contracts
+## Live App
+[https://gifted-aryabhata-929956.netlify.app/](https://gifted-aryabhata-929956.netlify.app/)
 
 ## To-Do
 - [x] Fix `useEffect` for new wave events
 - [ ] Clean up
-- [ ] Deploy
+- [x] Deploy
 - [ ] write README.md
 
-## Live App
-[https://gifted-aryabhata-929956.netlify.app/](https://gifted-aryabhata-929956.netlify.app/)
 
-### **Welcome!**
-To get started with this course, clone this repo and follow these commands:
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b) and link your Discord account so you can get access to helpful channels and your instructor!
 
 
