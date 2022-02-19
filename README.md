@@ -5,7 +5,7 @@ Web3 App with Solidity + Ethereum Smart Contracts
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -19,7 +19,7 @@ Web3 App with Solidity + Ethereum Smart Contracts
 
 This is a solution to the [buildspace](https://buildspace.so/) challenge to build a <b>Web3 App with Solidity + Ethereum Smart Contracts</b>. [buildspace](https://buildspace.so/) is a platform to learn and build <b>Web3</b> projects alongside other devs.
 
-This repo contains the front-end <b>React</b> code for my <b>Web3</b> app.  You can view the repo for the Solidity + Ethereum Smart Contracts [here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
+This repo contains the front-end <b>React</b> code for my <b>Web3</b> app.  You can view the repo for the <b>Solidity + Ethereum Smart Contracts</b> [here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
 
 I built this project so that I could learn some <b>Solidity</b>, write + deploy a <b>smart contract</b> to the <b>blockchain</b>, and build a <b>Web3 client</b> app that can <b>interact</b> with your a <b>smart contract</b>, and to basically get comfortable building an entire Web3 App. 
 
@@ -30,21 +30,20 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
 - [x] <b>View</b> landing page and understand the purpose of this app
 - [x] <b>Connect</b> their ethereum <b>wallet</b> using Metamask, with the Rinkeby Test Network
 - [x] <b>Input a message</b> and click button to send a "wave" to the smart contract owner
-- [x] Once the "wave" is sent the "waver" is entered to <b>win a prize</b>, where the winner is chosen at random
-- [x] While the user is waiting for their transaction to be mined on the blockchain a <b>loading message</b> is displayed to the UI, because of <b>blocktime<b> this message may be displayed for 15+ seconds
+- [x] Once the "wave" is sent, the "waver" is entered to <b>win a prize</b> where the winner is chosen at random
+- [x] While the user is waiting for their transaction to be mined on the blockchain a <b>loading message</b> is displayed to the UI. Because of <b>blocktime</b> this message may be displayed for 15+ seconds
 - [x] The <b>number of "wavers"</b> is displayed along with each wavers <b>address</b>, <b>time</b> that wave was sent, and a <b>message</b>.
 
 ### Smart Contract should be able to:
 
-- [x] Deploy your WavePortal smart contract to a local Ethereum network
-- [x] Build Web3 app that connects to our wallet and talks to our WaveContract
-- [x] Update WavePortal to randomly send lucky users waving at you some Ethereum
-- [x] Update UI + deploy to an Ethereum testnet so anyone on the internet can wave at you using their wallet
-
+- [x] <b>Deploy</b> your WavePortal <b>smart contract</b> to a local <b>Ethereum network</b>
+- [x] <b>Connect to our wallet</b> and talks to our WaveContract
+- [x] <b>Update WavePortal</b> to randomly send lucky users waving at you some Ethereum
+- [x] <b>Update UI</b> + <b>deploy</b> to an <b>Ethereum testnet</b> so anyone on the internet can wave at you using their wallet
 
 ## Screenshots
 
-### Landing Page and connect wallet
+### Landing page and Connect Wallet button
 ![](./screens/landing.png)
 ### Send message along with your wave
 ![](./screens/sendwave.png)
@@ -54,7 +53,7 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
 ![](./screens/wavesent.png)
 ![](./screens/allwaves.png)
 
-### Links
+## Links
 
 - Link to deployed Site: [Wave Portal Web3 dApp](https://gifted-aryabhata-929956.netlify.app/)
 - Link to Solidity Smart Contract: [Wave Portal Smart Contact Code](https://github.com/Chanda-Abdul/waveportal-smart-contract)
@@ -68,13 +67,14 @@ I built this project so that I could learn some <b>Solidity</b>, write + deploy 
         - [Semantic UI React](https://react.semantic-ui.com/) Components
     - CSS Flexbox
 - [Smart-Contract](https://github.com/Chanda-Abdul/waveportal-smart-contract)
-    - Solidity
-        - Hardhat
-    - Metamask
-    - Rinkeby Test Net
-        - Rinkeby Faucets
-        - Etherscan
-    - Blockchain
+    - [Solidity](https://docs.soliditylang.org/en/v0.8.12/)
+        - [Ethereum](https://ethereum.org/en/)
+        - [Hardhat](https://hardhat.org/)
+    - [Metamask](https://metamask.io/)
+    - [Rinkeby Test Net](https://www.rinkeby.io/)
+        - [Rinkeby Faucet](https://www.rinkebyfaucet.com/)
+        - [Etherscan](https://rinkeby.etherscan.io/)
+    - [Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 
 ### What I learned
 
