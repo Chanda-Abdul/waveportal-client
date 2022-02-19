@@ -17,24 +17,24 @@ Web3 App with Solidity + Ethereum Smart Contracts
 
 ## Overview
 
-This is a solution to the [buildspace](https://buildspace.so/) challenge to build a Web3 App with Solidity + Ethereum Smart Contracts. [buildspace](https://buildspace.so/). [buildspace](https://buildspace.so/) is a platform to learn and build web3 projects alongside other devs.
+This is a solution to the [buildspace](https://buildspace.so/) challenge to build a <b>Web3 App with Solidity + Ethereum Smart Contracts</b>. [buildspace](https://buildspace.so/) is a platform to learn and build web3 projects alongside other devs.
 
-This repo contains the front-end of my Web3 app.  You can view the repo [Solidity + Ethereum Smart Contracts here](https://github.com/Chanda-Abdul/waveportal-smart-contract)
+This repo contains the front-end of my Web3 app.  You can view the repo for the [Solidity + Ethereum Smart Contracts here](https://github.com/Chanda-Abdul/waveportal-smart-contract).
 
-In this project you'll learn some Solidity, write + deploy a smart contract to the blockchain, and build a Web3 client app to interact with your contract. Perfect for hackers curious about crypto.
+I built this project to learn some Solidity, write + deploy a smart contract to the blockchain, and build a Web3 client app that can interact with your a smart contract, and to basically get comfortable building an entire Web3 App. 
 
-### The challenge
+## The challenge
 
-#### Users should be able to:
+### Users should be able to:
 
-- [x] View landing page and understand the purpose of this dApp
-- [x] Connect thier ethereum wallet using metamask, with the Rinkeby Test Network
-- [x] Input a message and click button to send a "wave" to the smart contract owner
-- [x] When "wave" is sent the "waver" is entered to win a prize, where the winner is chosen at random
-- [x] While the user is waiting for their transaction to be sent to the blockchain a loading message is displayed
-- [x] The number of "wavers" is displayed along with each wavers address, time that wave was sent, and message.
+- [x] <b>View</b> landing page and understand the purpose of this app
+- [x] <b>Connect</b> their ethereum <b>wallet</b> using Metamask, with the Rinkeby Test Network
+- [x] <b>Input a message</b> and click button to send a "wave" to the smart contract owner
+- [x] Once the "wave" is sent the "waver" is entered to <b>win a prize</b>, where the winner is chosen at random
+- [x] While the user is waiting for their transaction to be mined on the blockchain a <b>loading message</b> is displayed to the UI, because of <b>blocktime<b> this message may be displayed for 15+ seconds
+- [x] The <b>number of "wavers"</b> is displayed along with each wavers <b>address</b>, <b>time</b> that wave was sent, and a <b>message</b>.
 
-#### Smart Contract should be able to:
+### Smart Contract should be able to:
 
 - [x] Deploy your WavePortal smart contract to a local Ethereum network
 - [x] Build web3 app that connects to our wallet and talks to our WaveContract
@@ -44,11 +44,11 @@ In this project you'll learn some Solidity, write + deploy a smart contract to t
 
 ### Screenshot
 
-![](./screens/landing.png.jpg)
-![](./screens/sendwave.png.jpg)
-![](./screens/mining.png.jpg)
-![](./screens/wavesent.png.jpg)
-![](./screens/wavesent.png.jpg)
+![](./screens/landing.png)
+![](./screens/sendwave.png)
+![](./screens/mining.png)
+![](./screens/wavesent.png)
+![](./screens/allwaves.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
